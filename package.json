@@ -1,0 +1,15 @@
+{
+  "name": "@wiltshirescouts/email-template",
+  "version": "1.0.0",
+  "description": "Shared Scouts Wiltshire HTML email shell and components (table layout, dark mode, mobile).",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": { ".": { "types": "./src/index.d.ts", "default": "./src/index.js" }, "./assets/*": "./assets/*" },
+  "files": ["src", "assets"],
+  "sideEffects": false,
+  "scripts": { "test": "node --test" },
+  "repository": { "type": "git", "url": "git+https://github.com/wiltshirescouts/email-template.git" },
+  "license": "UNLICENSED",
+  "private": true
+}
