@@ -5,9 +5,3 @@ updates:
     schedule:
       interval: "weekly"
     open-pull-requests-limit: 5
-    # The shared email package is a private GitHub dependency. If Dependabot cannot read it,
-    # add a "git" registry with a read token in this repo's Dependabot secrets.
-  - package-ecosystem: "github-actions"
-    directory: "/"
-    schedule:
-      interval: "weekly"
